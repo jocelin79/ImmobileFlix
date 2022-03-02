@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
 * {
-  box-sizing:border-box;
+  box-sizing: border-box;
 }
 
 body {
@@ -9,4 +9,27 @@ body {
   color: #fff;
   margin: 0;
   font-family: 'Roboto', sans-serif;
+}
+
+footer {
+  margin: 50px 0;
+  text-align: center;
+}
+
+footer img {
+  max-width: 50px;
+  max-height: 50px;
+}
+
+.loading {
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 999;
+  background-color: #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }

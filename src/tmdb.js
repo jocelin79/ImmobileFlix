@@ -21,7 +21,7 @@ export default {
         items: await basicFetch("/movie/upcoming?language=pt-BR&api_key=" + apiKey)
       },
       {
-        slug: 'top rated',
+        slug: 'top_rated',
         title: 'Melhor Avaliado',
         items: await basicFetch("/movie/top_rated?language=pt-BR&api_key=" + apiKey)
       },
