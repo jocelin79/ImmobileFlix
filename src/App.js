@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import './App.css'
 import tmdb from './tmdb'
-import MovieRow from './components/MovieRow'
+import MovieR from './components/MovieR'
 import FeaturedMovie from './components/FeaturedMovie'
 
 export default () => {
@@ -30,7 +30,7 @@ export default () => {
       {featuredData && <FeaturedMovie item={featuredData} />}
       <section className="lists">
         {movieList.map((item, key) => (
-          <MovieRow key={key} title={item.title} items={item.items} />
+          <MovieR key={key} title={item.title} items={item.items} />
         ))}
       </section>
 
