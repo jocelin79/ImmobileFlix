@@ -8,6 +8,7 @@ export default ({item}) => {
   if(description.length > 200) {
     description = description.substring(0, 200)+'...';
   }
+  
 
   return (
     <section className="featured" style={{backgroundSize: 'cover', backgroundPosition: 'center', backgroundImage: `url(https://image.tmdb.org/t/p/original${item.backdrop_path})`}}>
