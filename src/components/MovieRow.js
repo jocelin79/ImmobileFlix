@@ -25,6 +25,7 @@ export default ({ title, items }) => {
   const [movie_title, setMovie_title] = useState('')
 
   const [vote, setVote] = useState('')
+  
 
   const [date, setDate] = useState('')
 
