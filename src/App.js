@@ -11,6 +11,7 @@ export default () => {
   useEffect(() => {
     const loudAll = async () => {
       //Pegando a lista Total
+      
       let list = await tmdb.getHomeList()
       setMovieList(list)
 
