@@ -13,7 +13,6 @@ Para visualizar o preview do projeto acesse o [link](https://immoble-flix.heroku
 
 Este projeto foi desenvolvido com as seguintes tecnologias:
 - ReactJS;
-- HTML
-- CSS;
+- Styled-Components;
 - JavaScript;
 - Yarn.
